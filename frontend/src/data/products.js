@@ -1,0 +1,40 @@
+// 初始产品示例数据
+// status: online（上线）| developing（开发中）| offline（下线）
+export const defaultProducts = [
+  {
+    id: "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    name: "示例项目",
+    description: "这是一个示例产品，展示卡片效果",
+    url: "https://github.com",
+    icon: "📦",
+    tags: ["示例"],
+    status: "online",
+    priority: 1,
+    createdAt: "2026-01-01T00:00:00Z",
+    updatedAt: "2026-06-01T00:00:00Z",
+  },
+  {
+    id: "b2c3d4e5-f6a7-8901-bcde-f12345678901",
+    name: "待上线项目",
+    description: "正在开发中的新功能",
+    url: "https://example.com",
+    icon: "🚧",
+    tags: ["WIP"],
+    status: "developing",
+    priority: 2,
+    createdAt: "2026-03-15T00:00:00Z",
+    updatedAt: "2026-06-10T00:00:00Z",
+  },
+  {
+    id: "c3d4e5f6-a7b8-9012-cdef-123456789012",
+    name: "已下线项目",
+    description: "曾经维护过的小工具，已停止更新",
+    url: "https://example.com",
+    icon: "⏸️",
+    tags: ["归档"],
+    status: "offline",
+    priority: 3,
+    createdAt: "2025-06-01T00:00:00Z",
+    updatedAt: "2026-01-01T00:00:00Z",
+  },
+];
