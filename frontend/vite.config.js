@@ -3,13 +3,8 @@
 const { defineConfig } = require("vite");
 const vue = require("@vitejs/plugin-vue");
 
-export default {
-  base: '/demo/',
-  // ...
-}
-
 module.exports = defineConfig({
-  base: "./",
+  base: "/demo/",
   plugins: [vue()],
   resolve: {
     alias: {
